@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dve i po domaćice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .w3-bar-block .w3-bar-item {padding:20px}
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="index.html" onclick="w3_close()"
+  class="w3-bar-item w3-button">Izlaz</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Recepti</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">O nama</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16"> <b> Dve i po domaćice </b></div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/190366.jpg" alt="Cheesecake" style="width:100%">
+      <h3>Cheesecake</h3>
+      <p>Tražite najbolji recept za Cheesecake? Pročitajte naš tekst, pronađite mešavinu svežih, voćnih ali i čokoladnih aroma i napravite čizkej po vašem ukusu!</p>
+      <a href="https://youtube.com/shorts/_ZTao1wKdtI?feature=share"> Recept</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.mysticcakes.com/wp-content/uploads/2017/12/sam_4737res.jpg" alt="Steak" style="width:100%">
+      <h3>Bajadera
+      </h3>
+      <p>Bajadere su pravi izbor sitnih kolača, a spoj oraha i plazme im daje poseban ukus.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://domacirecepti.net/wp-content/uploads/2022/05/nugat-kocke-2.jpg" alt="Cherries" style="width:100%">
+      <h3>Nugat Kolač</h3>
+      <p>Nugat kolač. Kolač izuzetno bogatog ukusa koji potiče od kombinacije lešnika, mlečne pavlake, čokolade, putera.</p>
+      <p>Šta još?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://podravkaiovariations.azureedge.net/4c654238-6392-11eb-9aeb-0242ac12002b/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.jpeg" alt="Pasta and Wine" style="width:100%">
+      <h3>Popsići</h3>
+      <p>Popsi su poslednjih godina doživeli ekspanziju na ovim prostorima i gotovo da se ne mogu zamisliti proslave dečijih rođendana.ZA SUPER ROĐENDAN: Napravite domaće<i>  Cake Popse </i> </p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="korpice.jpg" alt="Popsicle" style="width:100%">
+      <h3>Čokoladne korpice</h3>
+      <p>Mystic cakes</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="rolat.jpg" alt="Salmon" style="width:100%">
+      <h3>Rolat od banane, plazme i nutele</h3>
+      <p>Savršen spoj nutele, banane i plazme oblikovan u rolat.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="kinder.jpg" alt="Sandwich" style="width:100%">
+      <h3>Kinder pingvin kolač</h3>
+      <p>Kada vam treba pravi letnji kolač, najbolji izbor je definitivno kinder pingvin.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Mafin.jpg" alt="Croissant" style="width:100%">
+      <h3>Voćni mafini</h3>
+      <p>Tako jednostavni a tako ukusni.</p>
+      <a href="https://www.youtube.com/watch?v=13UZ2Z9_r8Y"> Recept</a>
+    </div>
+  </div>
+
+  <!-- Pagination 
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  -->
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>O nama, upoznajte Dve i po domaice</h3><br>
+    <img src="mila.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Ustvari ima nas tri domaćice, ali čekamo da treći deo tima poraste kako bismo postale Tri domaćice.  </p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Ostanimo u kontaktu</h3>
+      <p>Možete nas kontaktirati putem imejla, telefona ili instagram profila.</p>
+      <p>S ljubavlju <a href="https://www.instagram.com/dveipodomacice/" target="_blank">Dve i po domaćice!</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>KOLAČI MAJA MESECA</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="jaffa.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Torta sa jafom i jagodama.</span><br>
+          <span>Savršen spoj jaffa keksa, piškota, oraha, slatke pavlake, čokolade i jagoda. </span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="Mafin.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Mafini sa jagodama.</span><br>
+          <span>Mafini gotovi za pola sata.</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULARNI TAGOVI</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Beograd</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Beograd</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Srbija</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kuvanje</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kolaci</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Domaći recepti</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

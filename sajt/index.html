@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>Dve i po domaćice</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+ <!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+</head>
+<body>
+<header>
+    <a href="#" class="logo"> <img src="logo.png"></a>
+    <nav class="navbar">
+        <a href="#home" class="active">Početna</a>
+        <a href="#about">O nama</a>
+        <a href="recepti.html">Recepti</a>
+        <a href="team.html">Tim</a>
+        <a href="https://www.instagram.com/dveipodomacice/">Rezervacije</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu"></i>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-shopping-cart"></i>
+    </div>
+</header>
+<!--Klizach-->
+<div class="home" id="home">
+    <div class=" swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide slide1">
+                <div class="content">
+                    <img src="homemade.png">
+
+                    <h3>Delicious Royate</h3>
+                    <h1>Gift voucher</h1>
+                    <p>Home made</p>
+                    <a href="https://www.instagram.com/dveipodomacice/" class="btn">Kupi sada</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide slide2">
+                <div class="content">
+                    <img src="homemade.png">
+
+                    <h3>10% popust na određene proizvode</h3>
+                    <h1>Uvek sveže</h1>
+                    <p>Home made</p>
+                    <a href="https://www.instagram.com/dveipodomacice/" class="btn">Kupi sada</a>
+                </div>
+            </div>
+            
+        </div> 
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<section class="welcome" id="about">
+    <h1 class="heading">Dobro došli na naš sajt</h1>
+    <center><h3 class="sub-heading"> ~ Luxury & Quality ~ </h3> </center>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="making.jpg" alt="making">
+            </div>
+            <div class="content">
+                <h3>Dve i po domaćice</h3>
+                <p>"Neka vaša hrana bude lek, a vaš lek vaša hrana." Hipokrat</p>
+                <a href="recepti.html" class="btn">Pronadji svoj recept.</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="prva.jpg" alt="making">
+            </div>
+            <div class="content">
+                <h3>Dve i po domaćice</h3>
+                <p>Tajni sastojak svakog jela jeste ljubav.</p>
+                <a href="recepti.html" class="btn">Pronadji recept.</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="b2.jpg" alt="making">
+            </div>
+            <div class="content">
+                <h3>Instagram profil</h3>
+                <p><b>Tajni sastojak svakog jela jeste ljubav.</b></p>
+                <a href="https://www.instagram.com/dveipodomacice/" class="btn">Pogledaj proizvode i poruči.</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- pocetak -->
+
+<section class="our-menu" id="menu">
+    <h1 class="heading">O nama</h1>
+    <p> Dan po dan, kolač po kolač, kažu da smo postale pravi stručnjaci u pravljenju slatkiša. Nemamo neku tajnu, samo nam valjda ide od ruke jer nam je zanimljivo.
+            Najviše smo počele praviti kolače iz dosade, jer smo imale dovoljno slobodnog vremena i iskoristile smo na taj način.
+            Zašto Dve i po domaćice ? Te godine, rodila se Mila, koja je sa nama provodila  vreme u kuhinji dok smo pravile kolače, i nikako ne bismo smele da je izostavimo iz tima. 
+Kada može "Dva i po muškarca",onda mogu i <br> "Dve i po domaćice". :D Smišljale smo dugo drugi naziv ali ipak ovaj je autentičan i najbolji. </p>
+    <!--<center><h3 class="sub-heading"> ~ Pogledajte nase recepte ~ </h3></center>-->
+<h3 class="sub-heading"></h3>
+<center><a href="recepti.html" class="btn">~ Pogledajte naše recepte ~ .</a></center>
+
+   <!--- <div class="menu-container">
+    <div class="item">
+    <div class="item-name">
+
+        <h2></h2>
+    </div>
+
+    </div>
+
+    </div> -->
+
+</section>
+
+<!-- kraj -->
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Slajd, listanje, Swiper -->
+<script>
+  var swiper = new Swiper(".home-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+   loop:true,
+  });
+</script>
+
+<!--smanjeni meni-->
+<script type="text/javascript">
+let menu = document.querySelector('#menu');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+}
+</script>
+
+<div class="footer">
+    <div class="footer-container"> 
+     <h3><center>Pratite nas</center></h3>
+          
+          <body>
+            
+              <div class="row">
+                <center><li>
+                    <ol><a href="https://www.facebook.com/"> Facebook</a></ol>
+                    <ol><a href="https://www.youtube.com/@dveipodomacice">YouTube</a></ol> 
+                    <ol><a href="https://www.instagram.com/dveipodomacice/">  Instagram</a></ol>  
+                
+                </li></center>
+          </div>
+     </body>
+     </div>
+ <hr>
+ <p class="autorskopravo">Autorsko pravo 2023 - Dve i po domaćice </p>
+ </div>
+
+</body>
+</html>
